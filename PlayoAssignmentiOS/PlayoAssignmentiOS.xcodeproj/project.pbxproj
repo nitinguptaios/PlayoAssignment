@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0CA9058A2897FC2000355C24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA905892897FC2000355C24 /* AppDelegate.swift */; };
 		0CA9058C2897FC2000355C24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA9058B2897FC2000355C24 /* SceneDelegate.swift */; };
-		0CA9058E2897FC2000355C24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA9058D2897FC2000355C24 /* ViewController.swift */; };
+		0CA9058E2897FC2000355C24 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA9058D2897FC2000355C24 /* HomeVC.swift */; };
 		0CA905912897FC2000355C24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA9058F2897FC2000355C24 /* Main.storyboard */; };
 		0CA905932897FC2300355C24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA905922897FC2300355C24 /* Assets.xcassets */; };
 		0CA905962897FC2300355C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA905942897FC2300355C24 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		0CA905862897FC2000355C24 /* PlayoAssignmentiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayoAssignmentiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA905892897FC2000355C24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CA9058B2897FC2000355C24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0CA9058D2897FC2000355C24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CA9058D2897FC2000355C24 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		0CA905902897FC2000355C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CA905922897FC2300355C24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA905952897FC2300355C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,63 @@
 		0CA905882897FC2000355C24 /* PlayoAssignmentiOS */ = {
 			isa = PBXGroup;
 			children = (
-				0CA905892897FC2000355C24 /* AppDelegate.swift */,
-				0CA9058B2897FC2000355C24 /* SceneDelegate.swift */,
-				0CA9058D2897FC2000355C24 /* ViewController.swift */,
-				0CA9058F2897FC2000355C24 /* Main.storyboard */,
-				0CA905922897FC2300355C24 /* Assets.xcassets */,
-				0CA905942897FC2300355C24 /* LaunchScreen.storyboard */,
+				0CA905A22897FC7100355C24 /* Resources */,
+				0CA905A12897FC6B00355C24 /* Extension */,
+				0CA905A02897FC5600355C24 /* PlayoProject */,
 				0CA905972897FC2300355C24 /* Info.plist */,
 			);
 			path = PlayoAssignmentiOS;
+			sourceTree = "<group>";
+		};
+		0CA9059D2897FC3F00355C24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0CA9059E2897FC4400355C24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0CA9058F2897FC2000355C24 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0CA9059F2897FC4800355C24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0CA9058D2897FC2000355C24 /* HomeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0CA905A02897FC5600355C24 /* PlayoProject */ = {
+			isa = PBXGroup;
+			children = (
+				0CA9059F2897FC4800355C24 /* Controller */,
+				0CA9059E2897FC4400355C24 /* View */,
+				0CA9059D2897FC3F00355C24 /* Model */,
+			);
+			path = PlayoProject;
+			sourceTree = "<group>";
+		};
+		0CA905A12897FC6B00355C24 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0CA905A22897FC7100355C24 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0CA905922897FC2300355C24 /* Assets.xcassets */,
+				0CA905942897FC2300355C24 /* LaunchScreen.storyboard */,
+				0CA905892897FC2000355C24 /* AppDelegate.swift */,
+				0CA9058B2897FC2000355C24 /* SceneDelegate.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CA9058E2897FC2000355C24 /* ViewController.swift in Sources */,
+				0CA9058E2897FC2000355C24 /* HomeVC.swift in Sources */,
 				0CA9058A2897FC2000355C24 /* AppDelegate.swift in Sources */,
 				0CA9058C2897FC2000355C24 /* SceneDelegate.swift in Sources */,
 			);
