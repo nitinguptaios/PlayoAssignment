@@ -13,7 +13,7 @@ var timerForLoader: Timer?
 
 extension UIViewController{
 
-    func showLoader(msg:String = "", animationType: NVActivityIndicatorType = .circleStrokeSpin, color: UIColor = primaryGreenColor, timeInterval: TimeInterval = 30.0, size: CGSize = CGSize(width: 70, height: 70)){
+    func showLoader(msg:String = "", animationType: NVActivityIndicatorType = .circleStrokeSpin, color: UIColor = .blue, timeInterval: TimeInterval = 30.0, size: CGSize = CGSize(width: 70, height: 70)){
         let activityData =  ActivityData(size: size, message: msg, messageFont: nil, messageSpacing: nil, type: animationType, color: color, padding: nil, displayTimeThreshold: nil, minimumDisplayTime: nil, backgroundColor: UIColor.clear, textColor: UIColor.white)
         NVActivityIndicatorPresenter.sharedInstance.startAnimating(activityData)
         timerForLoader?.invalidate()
