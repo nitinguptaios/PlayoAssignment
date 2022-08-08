@@ -48,10 +48,10 @@
 		0C069488289826D800BF9850 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C069461289826D800BF9850 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
 		0C069489289826D800BF9850 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C069462289826D800BF9850 /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
 		0C06948A289826D800BF9850 /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C069463289826D800BF9850 /* NVActivityIndicatorAnimationOrbit.swift */; };
-		0C06948D2898276400BF9850 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C06948C2898276400BF9850 /* Loader.swift */; };
 		0C0694D62898336400BF9850 /* PlayoAssignmentiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0694D52898336400BF9850 /* PlayoAssignmentiOSUITests.swift */; };
 		0C0694D82898336400BF9850 /* PlayoAssignmentiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0694D72898336400BF9850 /* PlayoAssignmentiOSUITestsLaunchTests.swift */; };
 		0C0694E52898351400BF9850 /* PlayoAssignmentiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0694E42898351400BF9850 /* PlayoAssignmentiOSTests.swift */; };
+		0C62F1CB28A0C2B500550D51 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C62F1CA28A0C2B500550D51 /* Loader.swift */; };
 		0CA2D7B928980D89002113C4 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA2D7B828980D89002113C4 /* NewsCell.swift */; };
 		0CA9058A2897FC2000355C24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA905892897FC2000355C24 /* AppDelegate.swift */; };
 		0CA9058C2897FC2000355C24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA9058B2897FC2000355C24 /* SceneDelegate.swift */; };
@@ -122,12 +122,12 @@
 		0C069461289826D800BF9850 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
 		0C069462289826D800BF9850 /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
 		0C069463289826D800BF9850 /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
-		0C06948C2898276400BF9850 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		0C0694D32898336400BF9850 /* PlayoAssignmentiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayoAssignmentiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C0694D52898336400BF9850 /* PlayoAssignmentiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayoAssignmentiOSUITests.swift; sourceTree = "<group>"; };
 		0C0694D72898336400BF9850 /* PlayoAssignmentiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayoAssignmentiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0C0694E22898351400BF9850 /* PlayoAssignmentiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayoAssignmentiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C0694E42898351400BF9850 /* PlayoAssignmentiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayoAssignmentiOSTests.swift; sourceTree = "<group>"; };
+		0C62F1CA28A0C2B500550D51 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		0CA2D7B828980D89002113C4 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		0CA905862897FC2000355C24 /* PlayoAssignmentiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayoAssignmentiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA905892897FC2000355C24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -231,7 +231,7 @@
 		0C06948B2898274000BF9850 /* UtilityFunctions */ = {
 			isa = PBXGroup;
 			children = (
-				0C06948C2898276400BF9850 /* Loader.swift */,
+				0C62F1CA28A0C2B500550D51 /* Loader.swift */,
 				0C069439289826D700BF9850 /* NVActivityIndicatorView */,
 			);
 			path = UtilityFunctions;
@@ -517,7 +517,7 @@
 				0C069472289826D800BF9850 /* NVActivityIndicatorAnimationBallScale.swift in Sources */,
 				0C069473289826D800BF9850 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
 				0C069488289826D800BF9850 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */,
-				0C06948D2898276400BF9850 /* Loader.swift in Sources */,
+				0C62F1CB28A0C2B500550D51 /* Loader.swift in Sources */,
 				0CA2D7B928980D89002113C4 /* NewsCell.swift in Sources */,
 				0C069469289826D800BF9850 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */,
 				0C069464289826D800BF9850 /* NVActivityIndicatorAnimationDelegate.swift in Sources */,
